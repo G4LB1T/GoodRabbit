@@ -3,7 +3,7 @@ def calc_rabbit_CRC(proc_name):
     Quick and dirty implementation of BadRabbit's custom hashing algorithm in python
     
     :param proc_name: process name string to calculate its custom hash 
-    :return: string of the custom
+    :return: custom hash value of the input string, as string
     """
     try:
         res_byte_array = bytearray([0x21, 0x43, 0x65, 0x87])
